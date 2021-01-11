@@ -1,0 +1,66 @@
+h1 {
+  font-family: 'Cutive Mono', monospace;
+  text-align: center;
+}
+h2 {
+  font-family: 'Cutive Mono', monospace;
+  text-align: center;
+  margin
+}
+body {
+  background-color: lightblue;
+  font-family: 'Courier Prime', monospace;
+}
+ol {
+  list-style-position: inside;
+  
+}
+.art {
+  margin-right: 30px;
+}
+.song {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+}
+ol{
+  display: flex;
+  flex-direction: column;
+}
+div{ 
+display: flex;
+
+  margin-left: 60px;
+}
+.innerdivs {
+  margin-top: 30px;
+}
+.demon {
+ margin-left: 40px;
+}
+.eternity {
+  margin-left: 40px;
+}
+
+body {
+ animation-name: colorChange;
+ animation-duration: 10s;
+ animation-iteration-count: infinite; 
+}
+@keyframes colorChange { 
+  0% {
+   background-color: lightblue;
+  }
+  40% {
+   background-color: pink;
+  }
+  50% {
+   background-color: lightblue;
+  }
+  75% { 
+   background-color: lightpurple;
+  } 
+  100% {
+   background-color: lightblue;
+  }
+}

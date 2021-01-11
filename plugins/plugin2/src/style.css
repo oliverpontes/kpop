@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+*{
+  --primary-color: #FBFBFB;
+  --secondary-color: #6F8AD9;
+  margin: 0 0;
+  font-family: 'Oswald', sans-serif;
+}
+body{
+  background:url("https://channel-korea.com/wp-content/uploads/2017/10/twice-5.jpg");
+  background-attachment: fixed;
+}
+
+header img {
+  width: 50px;
+  height: 50px;
+}
+
+#header{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: linear-gradient(to right, #FFFFFF, #F1EAF6);
+}
+
+a, a:visited{
+  text-decoration: none;
+  color: #294EC1;
+}
+
+#image {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  width: 25%;
+  padding: 5px 0 5px 0;
+}
+
+#nav-bar{
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#nav-bar a{
+  font-size: 1.5rem;
+}
+#video {
+  display: block;
+  margin: 0 auto;
+}
+
+#form {
+  display: block;
+  margin: 0 auto;
+  width: auto;
+}
+
+#form input , #form input:focus{
+  margin: 0 auto;
+  display: block;
+  border-radius: 9999em 9999em 9999em 9999em; 
+  text-align: center;
+  outline: none;
+}
+
+#email {
+  width: 20%;
+}
+h1 {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 35px;
+}
+#album-title{
+  margin-top: 200px;
+}
+#albums {
+  margin: 0 auto 50px auto;
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  color: white;
+}
+
+#albums a{
+  background-color: #1db954;
+  width: 35%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 9999em 9999em 9999em 9999em; 
+}
+
+.album {
+  display: block;
+  background-color: #D79FC3; 
+  padding: 25px;
+  border-radius: 5%;
+}
+
+.album img{
+  width: 300px;
+  height: 300px;
+}
+
+.album-name {
+  text-align: center;
+}
+
+.album a{
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+@media (max-width: 1025px){
+  #header{
+    display: block;
+  }
+  header img{
+    margin: 0 auto;
+  }
+  #image{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  #email{
+    width: 60%;
+  }
+  #nav-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #video {
+    height: auto;
+    max-width: 100%;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+  }
+  #album-title {
+    margin: 0 auto;
+  }
+  #albums{
+    display: block;
+    max-width: 270px;
+    width: auto;
+    margin: 25px auto 0 auto;
+  }
+  
+  .album {
+    padding: 10px 0 10px 0;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #albums img{
+    max-width: 220px;
+    max-height: 220px;
+    width: auto;
+    height: auto;
+  }
+
+}
